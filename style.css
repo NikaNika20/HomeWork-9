@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+}
+
+.leftph{
+    width: 50%;
+    height: 100%;
+}
+.rightdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 50%;
+}
+
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.topdiv{
+    display: flex;
+    gap: 10px;
+}
+.toph1{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.topp{
+    color: #949494;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: 'Poppins';
+}
+
+.wd{
+    padding: 5px 50px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.h2label{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+button{
+    background-color: blue;
+    padding: 10px 65px 10px 65px ;
+    border: none;
+    border-radius: 8px;
+    color: white;
+
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.bottomdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 7px 30px;
+}
+
+.topa{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.linkdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bota{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
